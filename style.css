@@ -62,17 +62,25 @@ button {
   justify-content: center;
   list-style: none;
   text-decoration: none;
+  border: 0px;
   color: #e6eef1;
   font-family: "Permanent Marker";
   font-size: 1.5rem;
   /* padding: 5em; */
   margin: 0.5em;
 }
+button:hover {
+  box-shadow: 10px 5px 30px #8fa7df;
+
+  transition: 0.3s ease-in;
+}
 button img {
   padding: 25px;
 }
 .noteContainer {
   margin-top: 2em;
+  margin-bottom: 2em;
+
   font-family: "Permanent Marker";
   font-size: 1.5rem;
   display: flex;
