@@ -65,14 +65,14 @@ button {
   text-decoration: none;
   color: #e6eef1;
   font-family: "Permanent Marker";
-  font-size: 3.5rem;
+  font-size: 1.5rem;
   /* padding: 5em; */
   margin: 0.5em;
 }
 button img {
   padding: 25px;
 }
-.overlayLeftBtn {
+/* .overlayLeftBtn {
   padding: 12px 24px;
   background-color: hsl(222, 100%, 95%);
   border-radius: 6px;
@@ -102,8 +102,15 @@ button img {
 
 .overlayLeftBtn:hover span {
   color: hsl(222, 100%, 95%);
-}
+} */
 
 .overlayLeftBtn:hover::before {
   transform: translate(0, -50%);
+}
+/* Media Queries} */
+
+@media screen and (max-width: 450) {
+  .header .LandingText {
+    display: none;
+  }
 }
