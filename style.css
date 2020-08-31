@@ -29,13 +29,14 @@ nav .logo {
 }
 
 .LandingText {
-  font-family: "Permanent Marker";
+  font-family: "Bangers", cursive;
   font-size: 4rem;
   padding: 25px;
 }
 
 .linksTitle {
-  font-family: "Permanent Marker";
+  font-family: "Bangers", cursive;
+
   font-size: 4rem;
   padding: 25px;
 }
@@ -64,7 +65,8 @@ button {
   text-decoration: none;
   border: 0px;
   color: #e6eef1;
-  font-family: "Permanent Marker";
+  font-family: "Bangers", cursive;
+
   font-size: 1.5rem;
   /* padding: 5em; */
   margin: 0.5em;
@@ -81,7 +83,8 @@ button img {
   margin-top: 2em;
   margin-bottom: 2em;
 
-  font-family: "Permanent Marker";
+  font-family: "Bangers", cursive;
+
   font-size: 1.5rem;
   display: flex;
   justify-content: center;
